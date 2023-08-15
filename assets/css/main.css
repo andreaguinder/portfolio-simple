@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap');
+
 html {
   overflow-x: hidden;
 }
@@ -26,7 +28,8 @@ h1, h2, h3, h4 {
 }
 
 .script-font {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -681,6 +684,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     position: absolute;
     padding: 0px 15px;
     top: 0;
+    margin-right: 0px;
   }
   .navbar-brand img {
     width: 75%;
@@ -978,7 +982,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .contact-form-area {
   background: #fff;
   box-shadow: 0 0 30px #ededed;
-  padding: 60px 40px;
+  padding: 60px 16px;
 }
 
 .contact-form-area h2 {
@@ -994,7 +998,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .footer-right-contact .single-contact {
   margin: 10px 22px;
-  padding: 3px 55px;
+  padding: 10px 48px;
   position: relative;
   color: #666;
 }
@@ -1126,5 +1130,5 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 #copyright p a:hover {
-  color:  rgb(255, 126, 206)9;
+  color:  rgb(255, 126, 206);
 }
